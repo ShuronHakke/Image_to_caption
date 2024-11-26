@@ -24,22 +24,22 @@ cd image-captioning-project
 Install Dependencies: Use the requirements.txt file to install all the necessary dependencies:
 
 
-pip install -r requirements.txt
+**pip install -r requirements.txt**
 Run the Script: To generate a caption for an image, run the image_to_text.py script. This will prompt you to upload an image, and then it will generate a caption for it.
 
-python scripts/image_to_text.py
+**python scripts/image_to_text.py**
+
 Upload an Image: When prompted, upload an image of your choice. The model will process the image and generate a caption for it.
 
 View the Caption: The generated caption will be displayed in the output, showing a description of the image.
 
-**Example Usage**
-After setting up the environment and running the script, you can upload an image, and the model will automatically generate a caption. Here’s a sample of what the output might look like:
-
 
 Generated Caption: "A person sitting on a bench with a bag next to them."
+
 **How the Model Works**
 Image Processing: The uploaded image is processed using the BLIP model, which uses deep learning techniques to analyze the image.
 Text Generation: The BLIP model generates a caption based on its understanding of the image’s content, combining both visual features and textual knowledge.
+
 **License**
 This project is licensed under the MIT License.
 
